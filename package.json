@@ -1,0 +1,21 @@
+{
+  "name": "discord-slash-command-nuker",
+  "version": "1.0.0",
+  "description": "nuke all of your discord application commands",
+  "main": "main.js",
+
+  "scripts": 
+  {
+    "delete-guild": "node guildNuker.js",
+    "delete-global": "node globalNuker.js"
+  },
+
+  "author": "shob3r",
+  "license": "MIT",
+
+  "dependencies": 
+  {
+    "@discordjs/rest": "^2.2.0",
+    "discord.js": "^14.14.1"
+  }
+}

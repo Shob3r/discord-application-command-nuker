@@ -1,0 +1,5 @@
+{
+    "token": "your-token-here",
+    "clientID": "your-application-id-here",
+    "guildID": "your-guild-id-here-only-needed-for-guild-delete"
+}
