@@ -3,7 +3,8 @@ The title says it all. if you want to delete the application commands on a disco
 
 # Requirements
 
-- NodeJS 16.11.0 or higher (As stated by the discordjs documentation). You may use your preffered package manager, but in this tutorial, I'll be using yarn
+- NodeJS 16.11.0 or higher (As stated by the [DiscordJS Documentation](https://discordjs.guide/preparations/#installing-node-js)). 
+    - You may use your favorite javascript package manager, but in this tutorial, I'll be using yarn
 - The Discord bot's clientID and login token, as well as the guild ID that you want to delete guild commands from (if that's what you want to do)
 
 # How to run
