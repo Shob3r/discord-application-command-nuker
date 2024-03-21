@@ -1,9 +1,0 @@
-// Require the necessary discord.js classes
-const {REST, Routes } = require('discord.js');
-const { token, clientID } = require('./config.json');
-
-const rest = new REST().setToken(token)
-
-rest.put(Routes.applicationCommands(clientID), { body: []})
-    .then(() => console.log("Nuked it all"))
-    .catch(console.error)
