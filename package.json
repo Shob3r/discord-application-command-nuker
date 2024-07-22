@@ -6,8 +6,8 @@
 
   "scripts": 
   {
-    "delete-guild": "node guildNuker.js",
-    "delete-global": "node globalNuker.js"
+    "delete-guild": "node src/guildNuker.js",
+    "delete-global": "node src/globalNuker.js"
   },
 
   "author": "shob3r",
